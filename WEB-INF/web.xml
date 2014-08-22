@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+ <servlet>
+        <servlet-name>inscription</servlet-name>
+        <servlet-class>classes.inscription</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>deconnecte</servlet-name>
+        <servlet-class>classes.deconnecte</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>recuperer</servlet-name>
+        <servlet-class>classes.recuperer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>controler</servlet-name>
+        <servlet-class>classes.controler</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>affinite</servlet-name>
+        <servlet-class>classes.affinite</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>inscription</servlet-name>
+        <url-pattern>/inscription</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deconnecte</servlet-name>
+        <url-pattern>/deconnecte</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>affinite</servlet-name>
+        <url-pattern>/affinite</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>recuperer</servlet-name>
+        <url-pattern>/recuperer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>controler</servlet-name>
+        <url-pattern>/controler</url-pattern>
+    </servlet-mapping>
+</web-app>
